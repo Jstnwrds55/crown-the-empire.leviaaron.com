@@ -1,0 +1,477 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.fixed-nav-bar {
+  padding-bottom: 13px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 9999;
+  min-height: 4%;
+  max-height: 13%;
+  width: 100%;
+  background-color: #efefef;
+  border-bottom: solid 1px #dbdbdb;
+}
+
+#navbar {
+  border-bottom: solid 2px #151515;
+}
+
+.nav li {
+  display: inline;
+}
+
+.pull-right a:hover {
+  background-color: rgb(200,200,200);
+  text-decoration: none;
+}
+
+.logo img {
+  display: inline;
+  position: absolute;
+  left: 5%;
+  height: 100%;
+  width: auto;
+  
+}
+
+.jumbotron {
+  position: relative;
+  top: 60px;
+  background-image:url('http://www.goerie.com/storyimage/GE/20140911/ENTERTAINMENT0301/309119975/AR/0/AR-309119975.jpgs');
+  height: 500px;
+  min-height: 30%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  right: 30px;
+  bottom: 20px;
+}
+
+.jumbotron img {
+  width: auto;
+  height: auto;
+  max-width: 40%;
+  max-height: 10%;
+  position: relative;
+  left: -2%;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 35px;
+  font-family: 'Ranga';
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.jumbotron .container a {
+  font-family: Ranga;
+  font-size: 10px;
+}
+
+.neighborhood-guides {
+  background-color: #f7f7f7;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: Ranga;
+  text-decoration: bold;
+}
+
+.neighborhood-guides h2 {
+  color: #393c3d;
+  font-size: 60px;
+}
+
+.neighborhood-guides p {
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+
+.thumbnail {
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.thumbnail h1 {
+  border-bottom: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.learn-more {
+  border-top: 1px solid #dbdbdb;
+  background-color: #efefef;
+  position: relative;
+  top: 20px;
+  padding-bottom: 20px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.videos {
+  position: relative;
+  top: 75px;
+  text-align: center;
+  font-family: Ranga; 
+  background-color: #1b1b1b;
+  padding-bottom: 75px;
+}
+
+.videos h1 {
+  font-size: 65px;
+  color: white;
+  text-decoration: bold;
+}
+
+.videos p {
+  font-size: 30px;
+  color: white;
+  text-decoration: bold;
+}
+
+.videos .thumbnail {
+  background-color: #1b1b1b;
+  background-size: cover;
+}
+
+.videos h3 {
+  color: white;
+  text-decoration: bold, underline;
+  border-bottom: solid 2px #efefef;
+}
+
+.learn-more .vidoes-more {
+  border-top: solid 5px #020202;
+}
+
+.jumbotron2 {
+  background-image: url(http://dpegb9ebondhq.cloudfront.net/product_photos/3215865/Andy_20CTE_20low_20rez_202_original.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+#td {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: Ranga;
+  font-size: 65px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.belt {
+  position: relative;
+  top: 150px;
+  height: 268px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* MARQUEE WIDGET FIX */
+
+.bit-marquee-container {
+  position: relative;
+  top: 105px;
+  font-family: Ranga;
+  font-size: 50px;
+  max-height: 700px;
+  width: 100%;
+  height: 268px;
+}
+
+#marquee-container-0 {
+  color: rgba(0,0,0,0.6);
+}
+
+.bit-marquee-container .bit-marquee-content {
+  height: 268px;
+  position: relative;
+  top: 16%;
+}
+
+#marquee_0A {
+  height: 268px;
+  line-height: 268px;
+}
+
+.bit-marquee-wrap {
+  position: relative;
+  top: -100px;
+  height: 268px;
+}
+
+.bit-marquee-container .bit-tour-status {
+  position: relative;
+  top: 16%;
+}
+
+.belt a {
+  color: #efefef;
+
+}
+
+.belt a:hover {
+  color: #efefef;
+}
+
+/* END OF MARQUEE WIDGET FIX */
+
+/* NON WIDGET TOUR DATES STYLING
+.tourdates li {
+  text-decoration: none;
+  display: inline;
+  font-family: Ranga;
+  font-size: 40px;
+  color: white;
+  display: relative;
+  top: -30px;
+  border-bottom: solid 2px white;
+}
+
+.tourdates2 li {
+  text-decoration: none;
+  display: inline;
+  font-family: Ranga;
+  font-size: 40px;
+  color: grey;
+  display: relative;
+  top: -30px;
+}
+
+.tourdates2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.tourdates2 a:hover {
+  color: white;
+}
+
+.tdg li {
+  text-decoration: none;
+  display: inline;
+  font-family: Ranga;
+  font-size: 40px;
+  color: white;
+  display: relative;
+  top: -50px;
+  text-shadow: 1px 1px black;
+}
+
+#tdg1 {
+  position: relative;
+  left: 5px;
+}
+
+#tdg1 button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  text-shadow: 1px 1px black;
+}
+
+#tdg1 button:hover {
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+#tdg2 {
+  position: relative;
+  left: 25px;
+}
+
+#td1 {
+  position: relative;
+  left: 5%;
+}
+
+#td2 {
+  position: relative;
+  left: 20%;
+}
+
+#td3 {
+  position: relative;
+  left: 40%;
+}
+
+#td4 {
+  position: relative;
+  left: 58%;
+}
+
+#td21 {
+  position: relative;
+  left: 5%;
+}
+
+#td22 {
+  position: relative;
+  left: 17%;
+}
+
+#td23 {
+  position: relative;
+  left: 27%;
+}
+
+#td24 {
+  position: relative;
+  left: 34%;
+}
+NON WIDGET TOUR DATES STYLING*/
+
+#dates_jumbo {
+  border-top: solid 3px #dbdbdb;
+}
+
+.bit-date {
+  font-size: 35px;
+  font-family: Ranga;
+  color: white;
+  font-weight: normal;
+}
+
+.bit-venue {
+  color: white;
+  font-family: Ranga;
+  font-size: 35px;
+  position: relative;
+  left: 3%;
+  font-weight: normal;
+}
+
+.bit-location {
+  color: white;
+  font-family: Ranga;
+  font-size: 35px;
+  position: relative;
+  left: 3%;
+  font-weight: normal;
+}
+
+.bit-tickets {
+  color: white;
+  font-family: Ranga;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.bit-event-data {
+  color: grey;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.belt .bit-widget-0 .bit-widget-container {
+  height: 700px;
+}
+
+.bit-share-text {
+  color: white;
+  font-family: Ranga;
+  font-size: 20px;
+}
+
+.bit-header-links {
+  color: white;
+  font-family: Ranga;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.bit-header-links a {
+  color: grey;
+  text-decoration: italic;
+}
+
+.bit-header-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+th {
+  font-weight: normal;
+}
+
+.no-dates {
+  color: white;
+  font-family: Ranga;
+  font-size: 23px;
+}
+
+.no-dates a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.bit-rsvp {
+  display: none;
+}
+
+.bit-events {
+  border: 5px 5px black;
+}
+
+#pic_cap {
+  padding-top: 10%;
+  color: black;
+  position: relative;
+  top: 10%;
+  text-align: center;
+  font-family: Ranga;
+  font-size: 40px;
+  border-bottom: solid 2px black;
+}
+
+#pic_sub {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 39%;
+  font-family: Ranga;
+  font-size: 15px;
+}
+
+#pic1 {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  border: solid 2px black;
+}
+
+#pic2 {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  border: solid 2px black;
+}
+
+.gallery {
+  background-color: white;
+  border-top: solid 1px #dbdbdb;
+  padding-bottom: 7%;
+}
