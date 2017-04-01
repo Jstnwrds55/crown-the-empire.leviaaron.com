@@ -5,10 +5,28 @@
   <link rel="shortcut icon" href="favicon.ico">
   <title>Crown The Empire</title>
   <link href='http://fonts.googleapis.com/css?family=Ranga' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="responsive.css">
+  
+  <style type="text/css">
+    
+      #youtube_canvas {
+        margin-top: 20px;
+        border-bottom: 3px solid black;
+      }
+      
+      #retro_vids {
+        text-align: center;
+        display: block;
+        background-color: #e5e5e5;
+        width: 500px;
+        padding-bottom: 20px;
+      }
+    
+  </style>
 
 </head>
 
@@ -19,7 +37,7 @@
         <ul class="logo">
           <li>
             <a href="index.html">
-              <img src="logo-invert.png" onmouseover="this.src='logo.png'" onmouseout="this.src='logo-invert.png'"/>
+              <img src="images/logo-invert.png" onmouseover="this.src='images/logo.png'" onmouseout="this.src='images/logo-invert.png'"/>
             </a>
           </li>
         </ul>
@@ -50,7 +68,7 @@
           <div class="thumbnail">
             <h1>Limitless</h1>
             <a href="https://play.google.com/store/music/album/Crown_The_Empire_Limitless?id=Bsma6eyi6uzzh4uzzds6ubtcpky">
-              <img src="http://a4.mzstatic.com/us/r30/Music/e2/f0/0b/mzi.lmpeuopi.600x600-75.jpg">
+              <img src="images/limitless.jpg"  onmouseover="this.src='images/limitless_hover.jpg'" onmouseout="this.src='images/limitless.jpg'"/>
             </a>
           </div>
         </div>
@@ -59,7 +77,7 @@
           <div class="thumbnail">
             <h1>The Fallout</h1>
             <a href="https://play.google.com/store/music/album/Crown_The_Empire_The_Fallout?id=Bgv3rxwjvjkokvlaa6povns6hca">
-              <img src="https://hxclx2.files.wordpress.com/2013/12/the-fallout-deluxe-reissue-600x600.jpg">
+              <img src="images/fallout.jpg" onmouseover="this.src='images/fallout_hover.jpg'" onmouseout="this.src='images/fallout.jpg'">
             </a>
           </div>
         </div>
@@ -68,13 +86,43 @@
           <div class="thumbnail">
             <h1>The Resistance</h1>
             <a href="https://play.google.com/store/music/album/Crown_The_Empire_The_Resistance_Rise_Of_The_Runawa?id=Brk3jpk7w2v5e5aerukgx7tv6bq">
-              <img src="http://s3.sandbaguk.com.s3.amazonaws.com/catalog/product/cache/188/image/9df78eab33525d08d6e5fb8d27136e95/c/r/crowd.jpg">
+              <img src="images/resistance.jpg" onmouseover="this.src='images/resistance_hover.jpg'" onmouseout="this.src='images/resistance.jpg'">
             </a>
           </div>
         </div>
-
       </div>
     </div>
+    <div class="container">
+      <p id="retro">Their new album titled 'Retrograde' will be released later this month.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <a href="https://play.google.com/store/music/album/Crown_The_Empire_Retrograde?id=Btc7khd6qc6gq4nbggnrrwcfvb4">
+              <img src="images/retrograde.jpg" onmouseover="this.src='images/retrograde_hover.jpg'" onmouseout="this.src='images/retrograde.jpg'">
+            </a>
+          </div>
+          </div>
+        <div id="retro_vids" class="col-md-6">
+          
+          <div style="overflow:hidden;height:270px;width:480px;max-width:100%;max-height:100%;"><div id="youtube_canvas" 
+          style="height:100%;width:100%;max-width:100%"><iframe style="height:100%;width:100%;max-width:100%;border:0;" 
+          frameborder="0" src="https://www.youtube.com/embed/tfyAgkFLx2U?hl=en&amp;autoplay=0&amp;cc_load_policy=0&amp;
+          loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=1"></iframe></div><a class="youtube-embed-code" 
+          href="https://www.tubeembed.com" id="get-youtube-data">tubeembed</a><style>#youtube_canvas 
+          img{max-width:none!important;background:none!important}</style></div>
+          
+          <div style="overflow:hidden;height:270px;width:480px;max-width:100%;max-height:100%;"><div id="youtube_canvas" 
+          style="height:100%;width:100%;max-width:100%"><iframe style="height:100%;width:100%;max-width:100%;border:0;" 
+          frameborder="0" src="https://www.youtube.com/embed/4-U5JoHuw_A?hl=en&amp;autoplay=0&amp;cc_load_policy=0&amp;
+          loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=1"></iframe></div><a class="youtube-embed-code" 
+          href="https://www.tubeembed.com" id="get-youtube-data">tubeembed</a><style>#youtube_canvas 
+          img{max-width:none!important;background:none!important}</style></div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
   </div>
   <div class="learn-more">
     <div class="container">

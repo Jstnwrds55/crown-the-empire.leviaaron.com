@@ -45,7 +45,7 @@
 .jumbotron {
   position: relative;
   top: 60px;
-  background-image:url('http://www.goerie.com/storyimage/GE/20140911/ENTERTAINMENT0301/309119975/AR/0/AR-309119975.jpgs');
+  background-image:url('images/cte_index.jpg');
   height: 500px;
   min-height: 30%;
   max-width: 100%;
@@ -71,13 +71,13 @@
 .jumbotron p {
   color: white;
   font-size: 35px;
-  font-family: 'Ranga';
+  font-family: 'Raleway';
   font-weight: bold;
   text-shadow: 1px 1px black;
 }
 
 .jumbotron .container a {
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 10px;
 }
 
@@ -86,7 +86,7 @@
   position: relative;
   top: 20px;
   text-align: center;
-  font-family: Ranga;
+  font-family: Raleway;
   text-decoration: bold;
 }
 
@@ -111,6 +111,15 @@
   text-decoration: none;
 }
 
+#retro {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: black 1px solid;
+  border-top: black 1px solid;
+}
+
+
+
 .learn-more {
   border-top: 1px solid #dbdbdb;
   background-color: #efefef;
@@ -133,7 +142,7 @@
   position: relative;
   top: 75px;
   text-align: center;
-  font-family: Ranga; 
+  font-family: Raleway; 
   background-color: #1b1b1b;
   padding-bottom: 75px;
 }
@@ -166,16 +175,16 @@
 }
 
 .jumbotron2 {
-  background-image: url(http://dpegb9ebondhq.cloudfront.net/product_photos/3215865/Andy_20CTE_20low_20rez_202_original.jpg);
+  background-image: url(images/andy_cte.jpg);
   background-size: cover;
   height: 700px;
 }
 
 #td {
   position: relative;
-  top: 150px;
+  top: 100px;
   text-align: center;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 65px;
   color: white;
   text-shadow: 1px 1px black;
@@ -183,10 +192,11 @@
 
 .belt {
   position: relative;
-  top: 150px;
-  height: 268px;
+  top: 100px;
+  height: 60%;
   width: 100%;
   background-color: rgba(0,0,0,0.6);
+  overflow: scroll;
 }
 
 /* MARQUEE WIDGET FIX */
@@ -194,7 +204,7 @@
 .bit-marquee-container {
   position: relative;
   top: 105px;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 50px;
   max-height: 700px;
   width: 100%;
@@ -242,7 +252,7 @@
 .tourdates li {
   text-decoration: none;
   display: inline;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 40px;
   color: white;
   display: relative;
@@ -253,7 +263,7 @@
 .tourdates2 li {
   text-decoration: none;
   display: inline;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 40px;
   color: grey;
   display: relative;
@@ -272,7 +282,7 @@
 .tdg li {
   text-decoration: none;
   display: inline;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 40px;
   color: white;
   display: relative;
@@ -349,14 +359,14 @@ NON WIDGET TOUR DATES STYLING*/
 
 .bit-date {
   font-size: 35px;
-  font-family: Ranga;
+  font-family: Raleway;
   color: white;
   font-weight: normal;
 }
 
 .bit-venue {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 35px;
   position: relative;
   left: 3%;
@@ -365,7 +375,7 @@ NON WIDGET TOUR DATES STYLING*/
 
 .bit-location {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 35px;
   position: relative;
   left: 3%;
@@ -374,7 +384,7 @@ NON WIDGET TOUR DATES STYLING*/
 
 .bit-tickets {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 35px;
   font-weight: normal;
 }
@@ -391,13 +401,13 @@ NON WIDGET TOUR DATES STYLING*/
 
 .bit-share-text {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 20px;
 }
 
 .bit-header-links {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 20px;
   text-decoration: none;
   text-shadow: none;
@@ -419,7 +429,7 @@ th {
 
 .no-dates {
   color: white;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 23px;
 }
 
@@ -442,7 +452,7 @@ th {
   position: relative;
   top: 10%;
   text-align: center;
-  font-family: Ranga;
+  font-family: Raleway;
   font-size: 40px;
   border-bottom: solid 2px black;
 }
@@ -451,8 +461,8 @@ th {
   text-decoration: none;
   position: relative;
   top: 10px;
-  left: 39%;
-  font-family: Ranga;
+  left: 35%;
+  font-family: Raleway;
   font-size: 15px;
 }
 
@@ -474,4 +484,19 @@ th {
   background-color: white;
   border-top: solid 1px #dbdbdb;
   padding-bottom: 7%;
+}
+
+#warped {
+  margin-top: 50px;
+}
+
+#warped_title {
+  padding-bottom: 5px;
+  border-bottom: solid 2px black;
+  text-align: center;
+}
+
+#warped_vid {
+  display: block;
+  margin: 0 auto;
 }
